@@ -1,15 +1,13 @@
 <script>
 // @ts-nocheck
     import yanka from '$lib/assets/images/yanka.jpg';
-    import twitchLogo from '$lib/assets/images/twitch_logo.svg';
-    import discordLogo from '$lib/assets/images/discord.svg';
+    import twitchLogo from '$lib/assets/images/twitch_logo.png';
+    import discordLogo from '$lib/assets/images/discord.png';
     import instagramLogo from '$lib/assets/images/instagram.webp';
     import telegramLogo from '$lib/assets/images/telegram.png';
-    import donationAlertsLogo from '$lib/assets/images/donationAlerts.svg';
+    import donationAlertsLogo from '$lib/assets/images/donationAlerts.png';
     import hots from '$lib/assets/images/hots.png';
     import Background from '$lib/components/background.svelte';
-    export let data;
-
 </script>
 
 <Background>
@@ -23,18 +21,20 @@
             </div>
         </div>
         <div class="tv">
-            <a href="https://twitch.tv/evieefryee" class="drop-shadow tv-container" style="background-image: url('{twitchLogo}');">
+            <div style="position: relative;">
+                <a href="https://twitch.tv/evieefryee" class="drop-shadow tv-container" style="background-image: url('{twitchLogo}');">
+                </a>
                 <a href="/hots-tournament" class="hots" style="background-image: url('{hots}');">
                 </a>
-            </a>
+            </div>
             <div class="social-row">
-                <a href="" class="drop-shadow social-container discord" style="background-image: url('{discordLogo}');">
+                <a href="https://discord.gg/jxxVmCr5w7" class="drop-shadow social-container discord" style="background-image: url('{discordLogo}?raw');">
                 </a>
-                <a href="" class="drop-shadow social-container instagram" style="background-image: url('{instagramLogo}');">
+                <a href="https://www.instagram.com/evieefryee/" class="drop-shadow social-container instagram" style="background-image: url('{instagramLogo}');">
                 </a>
-                <a href="" class="drop-shadow social-container telegram" style="background-image: url('{telegramLogo}');">
+                <a href="https://t.me/byfryee" class="drop-shadow social-container telegram" style="background-image: url('{telegramLogo}');">
                 </a>
-                <a href="" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
+                <a href="https://www.donationalerts.com/r/evieefryee" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
                 </a>
                 <!-- <a href="" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
                 </a> -->
@@ -131,7 +131,7 @@
         position: relative;
     }
 
-    .tv .tv-container .hots{
+    .tv .hots{
         position:absolute;
         bottom: 1vmin;
         right: 1vmin;
