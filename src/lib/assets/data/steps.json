@@ -1,0 +1,41 @@
+[
+    [
+        [
+            {"team": "Team 1", "score": 0},
+            {"team": "Team 2", "score": 0}
+        ],
+        [
+            {"team": "Team 3", "score": 0},
+            {"team": "Team 4", "score": 0}
+        ],
+        [
+            {"team": "Team 5", "score": 0},
+            {"team": "Team 6", "score": 0}
+        ],
+        [
+            {"team": "Team 7", "score": 0},
+            {"team": "Team 8", "score": 0}
+        ]
+    ],
+    [
+        [
+            {"team": "Team 1", "score": 0},
+            {"team": "Team 4", "score": 0}
+        ],
+        [
+            {"team": "Team 6", "score": 0},
+            {"team": "Team 7", "score": 0}
+        ]
+    ],
+    [
+        [
+            {"team": "Team 4", "score": 0},
+            {"team": "Team 7", "score": 0}
+        ]
+    ],
+    [
+        [
+            {"team": "Team 4", "score": 0}
+        ]
+    ]
+]
