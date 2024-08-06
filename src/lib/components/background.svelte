@@ -49,10 +49,6 @@
         min-height: 100vh;
         /* padding: 20vmin; */
         /* Add your background pattern here */
-        background-color: #313131;
-        background-image: radial-gradient(rgba(114, 81, 198, .5) 2px, transparent 0);
-        background-size: 30px 30px;
-        background-position: -5px -5px;
         transition: .2s linear;
         color: #784beb;
         display: flex;
