@@ -54,7 +54,7 @@ body{
 
 .background::before{
     content:"";
-    background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+    background-image:url("/src/lib/assets/images/1k_Dissolve_Noise_Texture.jpg");
     height: 300%;
     width: 300%;
     position: fixed;
