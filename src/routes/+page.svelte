@@ -106,7 +106,7 @@
     }
 
     .drop-shadow {
-        filter: drop-shadow(0 0 20px #8e55ab);
+        filter: drop-shadow(0 0 15px rgba(142, 85, 171, 0.8));
     }
 
     .tv{
