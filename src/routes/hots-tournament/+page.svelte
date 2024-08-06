@@ -11,19 +11,19 @@
 <Background>
     <div class="container justify-center">
         <div class="col justify-center">
-            <img src={hotsFullLogo} alt="hots full logo">
+            <img src={hotsFullLogo} alt="hots full logo" style="position: relative">
             <h1>Турнир от evieefryee</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus sequi nihil sit libero. Facere facilis, enim sapiente dolorem voluptatum fugiat ducimus dolorum deleniti nobis laborum, incidunt accusantium quidem distinctio!</p>
-            <div class="row justify-evenly align-center buttons">
+            <div class="row justify-evenly align-center buttons" style="position: relative">
                 <Watch/>
                 <Submit/>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus sequi nihil sit libero. Facere facilis, enim sapiente dolorem voluptatum fugiat ducimus dolorum deleniti nobis laborum, incidunt accusantium quidem distinctio!</p>
 
-            <img src={prize} alt="prize" style="margin-bottom: 4vmin;">
+            <img src={prize} alt="prize" style="margin-bottom: 4vmin; position: relative">
 
             <!-- <TournamentBrackets steps={steps}/> -->
-             <div style="width: 70vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin">
+             <div style="width: 70vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin; position: relative">
                 <iframe src="https://challonge.com/ru/6cmu8qbq/module" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
              </div>
 

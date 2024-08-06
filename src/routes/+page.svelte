@@ -1,6 +1,6 @@
 <script>
 // @ts-nocheck
-    import yanka from '$lib/assets/images/yanka.jpg';
+    import yanka from '$lib/assets/images/yanka2.jpg';
     import twitchLogo from '$lib/assets/images/twitch_logo.png';
     import discordLogo from '$lib/assets/images/discord.png';
     import instagramLogo from '$lib/assets/images/instagram.webp';
@@ -16,7 +16,7 @@
             <div class="image-container drop-shadow" style="background-image: url('{yanka}');">
                 <span>hots | vibe | aesthetic | sexy</span>
                 <div class="name-container">
-                    <h1 class="neon-text">evieefryee</h1>
+                    <!-- <h1 class="neon-text">evieefryee</h1> -->
                 </div>
             </div>
         </div>
@@ -49,6 +49,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 1em;
     }
 
     .image .name-container{
@@ -61,7 +62,7 @@
 
     .image h1{
         color: #fff;
-        font-size: calc(0.75em + 20vmin);
+        font-size: 2em;
         line-height: 1;
         z-index: 1;
         mix-blend-mode: overlay;
@@ -92,7 +93,7 @@
         height: 35vmax;
         border: 1vmin solid rgba(255,255,255, .7);
         border-radius: 5px;
-        background-size: 100%;
+        background-size: cover;
         background-position: center;
         display: flex;
         flex-direction: column;

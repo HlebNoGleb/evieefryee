@@ -1,37 +1,45 @@
 <script>
 // @ts-nocheck
+    import { onMount } from 'svelte';
 
-    const cursor = {
-        x: 0,
-        y: 0
-    };
+    // const cursor = {
+    //     x: 0,
+    //     y: 0
+    // };
 
-    let background = undefined;
+    // let background = undefined;
 
-    function handleMouseMove(e) {
-        cursor.x = Math.round(e.clientX / 10) * 10;
-        cursor.y = Math.round(e.clientY / 10) * 10;
+    // function handleMouseMove(e) {
+    //     cursor.x = Math.round(e.clientX / 10) * 10;
+    //     cursor.y = Math.round(e.clientY / 10) * 10;
 
-        background.style.backgroundPosition = `-${cursor.x/20}px -${cursor.y/15}px`;
-        // background.style.animation = 'none';
-    }
+    //     background.style.backgroundPosition = `-${cursor.x/20}px -${cursor.y/15}px`;
+    //     // background.style.animation = 'none';
+    // }
 
-    let smallDevice = false;
+    // let smallDevice = false;
 
-    const attachListener = () => {
-        const width = window.innerWidth;
-        smallDevice = width < 768;
-    }
+    // const attachListener = () => {
+    //     const width = window.innerWidth;
+    //     smallDevice = width < 768;
+    // }
 
-    const resizeListener = () => {
-        attachListener();
-    }
+    // const resizeListener = () => {
+    //     attachListener();
+    // }
+
+    onMount(() => {
+      particlesJS.load('particles-js', '/particles.json', function() {
+        console.log('callback - particles-js config loaded');
+      });
+    })
 </script>
 
-<svelte:window use:attachListener on:resize={resizeListener}/>
+<!-- <svelte:window use:attachListener on:resize={resizeListener}/> -->
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
-<div class="background" on:mousemove={(e) => handleMouseMove(e)} bind:this={background} class:small={smallDevice}>
+ <div id="particles-js"></div>
+<div class="background">
     <slot></slot>
 </div>
 
@@ -46,6 +54,7 @@
         background-size: 30px 30px;
         background-position: -5px -5px;
         transition: .2s linear;
+        color: #784beb;
         display: flex;
         /* animation: blink 1s infinite ease; */
     }
