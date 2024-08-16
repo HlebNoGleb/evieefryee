@@ -1,6 +1,6 @@
 <script>
     import Background from "$lib/components/background.svelte";
-    import hotsFullLogo from "$lib/assets/images/hots_full-logo.png";
+    import hotsFullLogo from "$lib/assets/images/hots_full-logo-4x-min.png";
     import Submit from "$lib/components/submit.svelte";
     import Watch from "$lib/components/watch.svelte";
     import TournamentBrackets from "$lib/components/tournamentBrackets.svelte";
@@ -10,14 +10,14 @@
 </script>
 
 <svelte:head>
-    <title>TURNIR byfryee</title>
+    <title>Tournament byfryee</title>
 </svelte:head>
 
 <Background>
     <div class="container justify-center">
         <div class="col justify-center">
             <img src={hotsFullLogo} alt="hots full logo" style="position: relative">
-            <h1>TURNIR byfryee</h1>
+            <h1>Tournament byfryee</h1>
             <div class="row justify-evenly align-center buttons" style="position: relative">
                 <Submit/>
             </div>

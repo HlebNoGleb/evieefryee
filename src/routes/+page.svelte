@@ -6,7 +6,7 @@
     import instagramLogo from '$lib/assets/images/instagram.webp';
     import telegramLogo from '$lib/assets/images/telegram.png';
     import donationAlertsLogo from '$lib/assets/images/donationAlerts.png';
-    import hots from '$lib/assets/images/hots_full-logo.png';
+    import hots from '$lib/assets/images/hots_full-logo-4x-min.png';
     import Background from '$lib/components/background.svelte';
     import { register } from 'swiper/element/bundle';
     register();
