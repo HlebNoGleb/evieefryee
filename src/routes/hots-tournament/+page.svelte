@@ -8,6 +8,11 @@
     import prize from "$lib/assets/images/prize.jpg";
 
 </script>
+
+<svelte:head>
+    <title>TURNIR byfryee</title>
+</svelte:head>
+
 <Background>
     <div class="container justify-center">
         <div class="col justify-center">

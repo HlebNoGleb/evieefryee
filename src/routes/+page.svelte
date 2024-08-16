@@ -12,6 +12,10 @@
     register();
 </script>
 
+<svelte:head>
+    <title>evieefryee</title>
+</svelte:head>
+
 <Background>
     <div class="container justify-between" >
         <div class="image">
