@@ -71,7 +71,7 @@
 
     .image h1{
         color: #fff;
-        font-size: calc(0.75em + 6vmin);
+        font-size: calc(0.75em + 10vmin);
         line-height: 1;
         z-index: 1;
         mix-blend-mode: overlay;

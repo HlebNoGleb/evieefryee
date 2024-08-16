@@ -16,7 +16,7 @@
             <div class="row justify-evenly align-center buttons" style="position: relative">
                 <Submit/>
             </div>
-            <div style="width: 70vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin; position: relative">
+            <div style="width: 80vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin; position: relative">
                 <iframe src="https://challonge.com/ru/byfryee/module" width="100%" height="100%" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
              </div>
 
