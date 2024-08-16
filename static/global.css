@@ -11,7 +11,7 @@ body{
     font-family: "Noto Sans KR", sans-serif;
     position: relative;
     background-color: #313131;
-        background-image: radial-gradient(rgba(114, 81, 198, .5) 2px, transparent 0);
+        /* background-image: radial-gradient(rgba(114, 81, 198, .5) 2px, transparent 0); */
         background-size: 30px 30px;
         background-position: -5px -5px;
 }
@@ -64,7 +64,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    opacity:0.05;
+    opacity:0.08;
     z-index: 1;
     transform: translateZ(0);
     animation: animateGrain 8s steps(10) infinite;

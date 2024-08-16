@@ -1,6 +1,6 @@
 <script>
 // @ts-nocheck
-    import yanka from '$lib/assets/images/yanka2.jpg';
+    import yanka from '$lib/assets/images/yanka.jpg';
     import twitchLogo from '$lib/assets/images/twitch_logo.png';
     import discordLogo from '$lib/assets/images/discord.png';
     import instagramLogo from '$lib/assets/images/instagram.webp';
@@ -8,6 +8,8 @@
     import donationAlertsLogo from '$lib/assets/images/donationAlerts.png';
     import hots from '$lib/assets/images/hots.png';
     import Background from '$lib/components/background.svelte';
+    import { register } from 'swiper/element/bundle';
+    register();
 </script>
 
 <Background>
@@ -16,16 +18,20 @@
             <div class="image-container drop-shadow" style="background-image: url('{yanka}');">
                 <span>hots | vibe | aesthetic | sexy</span>
                 <div class="name-container">
-                    <!-- <h1 class="neon-text">evieefryee</h1> -->
+                    <h1 class="neon-text">evieefryee</h1>
                 </div>
             </div>
         </div>
-        <div class="tv">
-            <div style="position: relative;">
-                <a href="https://twitch.tv/evieefryee" class="drop-shadow tv-container" style="background-image: url('{twitchLogo}');">
-                </a>
-                <a href="/hots-tournament" class="hots" style="background-image: url('{hots}');">
-                </a>
+        <div class="tv ">
+            <div style="position: relative; border: 1vmin solid rgba(255,255,255, .7);  aspect-ratio: 16/9;" class="drop-shadow">
+                <swiper-container slides-per-view="1" autoplay="true" speed="500" loop="true" style="height: 100%;">
+                    <swiper-slide>
+                        <a href="https://twitch.tv/evieefryee" class="tv-container" style="background-image: url('{twitchLogo}');">
+                        </a>
+                    </swiper-slide>
+                    <swiper-slide><a href="/hots-tournament" class="tv-container" style="background-image: url('{hots}');">
+                    </a></swiper-slide>
+                </swiper-container>
             </div>
             <div class="social-row">
                 <a href="https://discord.gg/jxxVmCr5w7" class="drop-shadow social-container discord" style="background-image: url('{discordLogo}?raw');">
@@ -62,7 +68,7 @@
 
     .image h1{
         color: #fff;
-        font-size: 2em;
+        font-size: calc(0.75em + 6vmin);
         line-height: 1;
         z-index: 1;
         mix-blend-mode: overlay;
@@ -114,22 +120,22 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 50vmax;
     }
 
     .tv .tv-container{
-        width: 50vmax;
-        border: 1vmin solid rgba(255,255,255, .7);
         border-radius: 5px;
         background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        aspect-ratio: 16/9;
         background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: #9146ff;
         position: relative;
+        width: 100%;
+        height: 100%;
     }
 
     .tv .hots{
@@ -217,7 +223,7 @@
             align-items: center; */
         }
 
-        .tv .tv-container{
+        .tv > div{
             margin-bottom: 4vmin;
             width: 90vmin;
         }

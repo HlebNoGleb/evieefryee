@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"particles.js": "^2.0.0",
+		"swiper": "^11.1.9",
 		"twitch-get-stream": "^0.6.0",
 		"twitch-js": "^2.0.0-beta.45"
 	}
