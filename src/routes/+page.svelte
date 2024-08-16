@@ -112,7 +112,7 @@
     }
 
     .drop-shadow {
-        filter: drop-shadow(0 0 15px rgba(142, 85, 171, 0.8));
+        filter: drop-shadow(0 0 5px rgba(142, 85, 171, 0.8));
     }
 
     .tv{
@@ -123,8 +123,12 @@
         width: 50vmax;
     }
 
-    .tv .tv-container{
+    .tv > div {
         border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .tv .tv-container{
         background-size: cover;
         display: flex;
         flex-direction: column;
