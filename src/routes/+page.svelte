@@ -6,7 +6,7 @@
     import instagramLogo from '$lib/assets/images/instagram.webp';
     import telegramLogo from '$lib/assets/images/telegram.png';
     import donationAlertsLogo from '$lib/assets/images/donationAlerts.png';
-    import hots from '$lib/assets/images/hots.png';
+    import hots from '$lib/assets/images/hots_full-logo.png';
     import Background from '$lib/components/background.svelte';
     import { register } from 'swiper/element/bundle';
     register();
@@ -29,8 +29,11 @@
                         <a href="https://twitch.tv/evieefryee" class="tv-container" style="background-image: url('{twitchLogo}');">
                         </a>
                     </swiper-slide>
-                    <swiper-slide><a href="/hots-tournament" class="tv-container" style="background-image: url('{hots}');">
-                    </a></swiper-slide>
+                    <swiper-slide>
+                        <a href="/hots-tournament" class="tv-container" style="background-image: url('{hots}');">
+                            <!-- <span>TURNIR byfryee</span> -->
+                        </a>
+                </swiper-slide>
                 </swiper-container>
             </div>
             <div class="social-row">
@@ -140,6 +143,14 @@
         position: relative;
         width: 100%;
         height: 100%;
+    }
+
+    .tv .tv-container span{
+        position: absolute;
+        bottom: 1vmin;
+        left: 1vmin;
+        color: #fff;
+        font-size: calc(0.5em + 1vmin);
     }
 
     .tv .hots{

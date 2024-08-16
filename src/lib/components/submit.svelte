@@ -9,7 +9,7 @@
 </script>
 
 <button class="button" on:click={open}>
-    <span>Записаться на турнир</span>
+    <span>Смотреть на Twitch</span>
 </button>
 
 <style>

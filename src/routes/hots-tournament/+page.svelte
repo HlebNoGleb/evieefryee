@@ -12,22 +12,21 @@
     <div class="container justify-center">
         <div class="col justify-center">
             <img src={hotsFullLogo} alt="hots full logo" style="position: relative">
-            <h1>Турнир от evieefryee</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus sequi nihil sit libero. Facere facilis, enim sapiente dolorem voluptatum fugiat ducimus dolorum deleniti nobis laborum, incidunt accusantium quidem distinctio!</p>
+            <h1>TURNIR byfryee</h1>
             <div class="row justify-evenly align-center buttons" style="position: relative">
-                <Watch/>
                 <Submit/>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus sequi nihil sit libero. Facere facilis, enim sapiente dolorem voluptatum fugiat ducimus dolorum deleniti nobis laborum, incidunt accusantium quidem distinctio!</p>
-
-            <img src={prize} alt="prize" style="margin-bottom: 4vmin; position: relative">
-
-            <!-- <TournamentBrackets steps={steps}/> -->
-             <div style="width: 70vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin; position: relative">
-                <iframe src="https://challonge.com/ru/6cmu8qbq/module" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            <div style="width: 70vmin; height: 50vmin; margin: auto; margin-bottom: 4vmin; position: relative">
+                <iframe src="https://challonge.com/ru/byfryee/module" width="100%" height="100%" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
              </div>
 
-             <p>Всем удачи!!</p>
+
+            <!-- <img src={prize} alt="prize" style="margin-bottom: 4vmin; position: relative"> -->
+
+            <!-- <TournamentBrackets steps={steps}/> -->
+
+
+             <!-- <p>Всем удачи!!</p> -->
         </div>
     </div>
 </Background>
