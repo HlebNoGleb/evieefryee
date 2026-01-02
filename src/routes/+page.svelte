@@ -211,7 +211,7 @@
         background-size: 70%;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: #191919;
+        background-color: #090909;
     }
 
     @media (max-width: 1100px) {
