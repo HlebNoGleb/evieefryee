@@ -33,11 +33,11 @@
                         <a href="https://twitch.tv/evieefryee" class="tv-container" style="background-image: url('{twitchLogo}');">
                         </a>
                     </swiper-slide>
-                    <swiper-slide>
+                    <!-- <swiper-slide>
                         <a href="/hots-tournament" class="tv-container" style="background-image: url('{hots}');">
-                            <!-- <span>TURNIR byfryee</span> -->
+                            <span>TURNIR byfryee</span>
                         </a>
-                </swiper-slide>
+                </swiper-slide> -->
                 </swiper-container>
             </div>
             <div class="social-row">
@@ -47,7 +47,7 @@
                 </a>
                 <a href="https://t.me/byfryee" class="drop-shadow social-container telegram" style="background-image: url('{telegramLogo}');">
                 </a>
-                <a href="https://www.donationalerts.com/r/evieefryee" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
+                <a href="https://donatex.gg/donate/evieefryee" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
                 </a>
                 <!-- <a href="" class="drop-shadow social-container donationAlerts" style="background-image: url('{donationAlertsLogo}');">
                 </a> -->
